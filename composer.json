@@ -1,6 +1,7 @@
 {
     "name": "jtaurus/autoinstantiator",
     "description": "Demo of automatic object resolution using PHP's reflection API.",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Jakub",
