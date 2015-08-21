@@ -1,0 +1,16 @@
+{
+    "name": "jtaurus/autoinstantiator",
+    "description": "Demo of automatic object resolution using PHP's reflection API.",
+    "authors": [
+        {
+            "name": "Jakub",
+            "email": "truefear@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4":{
+    		"jtaurus\\autoinstantiator\\" : "src/"
+    	}
+    }
+}
