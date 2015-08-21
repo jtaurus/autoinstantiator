@@ -12,5 +12,6 @@
     	"psr-4":{
     		"jtaurus\\autoinstantiator\\" : "src/"
     	}
-    }
+    },
+    "minimum-stability": "stable"
 }
