@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'jtaurus\\autoinstantiator\\' => array($baseDir . '/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
 );

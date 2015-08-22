@@ -9,9 +9,13 @@
         }
     ],
     "require": {},
+     "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
     "autoload": {
     	"psr-4":{
-    		"jtaurus\\autoinstantiator\\" : "src/"
+    		"jtaurus\\autoinstantiator\\" : "src/",
+            "tests\\" : "test/"
     	}
     },
     "minimum-stability": "stable"
